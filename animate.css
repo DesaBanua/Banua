@@ -1,0 +1,6 @@
+@import url('https://animate.style/');
+.animatesejarahbanua {
+  animation: slideInDown;
+  animation-duration: 4s;
+}
+

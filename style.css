@@ -1,0 +1,212 @@
+.frog {
+  border-radius: 0.2em;
+  padding: 0.3em;
+  color: rgb(255, 202, 43);
+}
+.iniBanner1 {
+  background-color: rgba(242, 255, 220, 0.534);
+  min-height: 40vh;
+  width: 150%;
+}
+.jumbotron {
+  padding-top: 3rem;
+  background: url('gambar/Master-Plan-Undiksha-2021.jpeg');
+  background-size: cover;
+  display: flex;
+  background-attachment: fixed;
+}
+#masterplan-img {
+  opacity: 0.5; /* Atur nilai opacity sesuai keinginan, dalam contoh ini, opacity adalah 50% */
+}
+.underline-text {
+  text-decoration: underline;
+  /* Mengatur warna garis bawah */
+  text-decoration-color: rgb(255, 202, 43); /* Anda dapat mengganti 'red' dengan warna lain */
+  /* Mengatur ketebalan garis bawah */
+  text-decoration-thickness: 3px; /* Anda dapat mengganti '2px' dengan nilai lain */
+  /* Atau menggunakan border-bottom untuk mengatur ketebalan */
+  /* border-bottom: 2px solid red; */
+}
+
+.service {
+  position: relative;
+}
+
+.heading {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.line {
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  z-index: 1;
+  width: 210px;
+  height: 7px;
+  background-color: yellow;
+}
+
+.line-profile {
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  z-index: 1;
+  width: 160px;
+  height: 7px;
+  background-color: yellow;
+}
+
+.line-aparat {
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  z-index: 1;
+  width: 190px;
+  height: 7px;
+  background-color: yellow;
+}
+
+.line-galeri {
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  z-index: 1;
+  width: 160px;
+  height: 7px;
+  background-color: yellow;
+}
+
+.line2 {
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  z-index: 1;
+  width: 110px;
+  height: 7px;
+  background-color: yellow;
+}
+
+.footer a:hover {
+  color: blue !important;
+}
+
+.kotak-pertama {
+  position: relative; /* Perlu diatur sebagai posisi relatif */
+}
+
+.kotak-pertama::before {
+  content: ''; /* Menambahkan pseudo-element */
+  position: absolute; /* Mengatur posisi menjadi absolut */
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background: url(assets/images/mixed.png);
+  opacity: 40%; /* Opacity bisa diset disini */
+  z-index: -1; /* Nilai z-index negatif untuk berada di belakang */
+}
+
+.banner {
+  position: relative;
+  padding-top: 15%;
+  padding-bottom: 50px;
+  color: black;
+  text-align: center;
+  overflow: hidden;
+}
+.banner::after {
+  content: '';
+  background: url('images/mixed.png');
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 70%;
+  z-index: -1;
+}
+
+.banner1 {
+  background-color: aliceblue;
+  background-size: cover;
+}
+
+.desa {
+  background-color: rgba(128, 128, 128, 0.571);
+}
+
+/* .image-profil {
+  background-image: url(images/Bambu.jpg);
+  background-size: 10%;
+  background-size: cover;
+} */
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 18rem;
+}
+
+.card-aparatur {
+  transition: all 0.3s;
+}
+
+.card-aparatur:hover {
+  transform: scale(1.1);
+}
+
+.custom-shape-divider-bottom-1722520850 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.custom-shape-divider-bottom-1722520850 svg {
+  position: relative;
+  display: block;
+  width: calc(166% + 1.3px);
+  height: 262px;
+}
+
+.custom-shape-divider-bottom-1722520850 .shape-fill {
+  fill: #0099ff;
+}
+
+.custom-shape-divider-bottom-1722522416 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+}
+
+.custom-shape-divider-bottom-1722522416 svg {
+  position: relative;
+  display: block;
+  width: calc(148% + 1.3px);
+  height: 225px;
+}
+
+.custom-shape-divider-bottom-1722522416 .shape-fill {
+  fill: #0099ff;
+}
+
+.navbar-brand img {
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.5)); /* Optional: Add shadow to logo for better visibility */
+}
